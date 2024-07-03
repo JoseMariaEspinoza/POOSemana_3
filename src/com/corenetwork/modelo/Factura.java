@@ -18,6 +18,9 @@ public class Factura {
         }
     }
 
+    public Factura() {
+    }
+
     public Factura(int idFactura, int idCliente) {
         this.idFactura = idFactura;
         this.idCliente = idCliente;
